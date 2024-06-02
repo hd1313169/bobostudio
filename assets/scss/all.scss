@@ -1,11 +1,16 @@
 @import "../../node_modules/bootstrap/scss/functions";
-@import './utils/variables';
+@import "./utils/variables";
+@import './layout/layout.scss';
+@import './layout/swiper.scss';
+@import './layout/index.scss';
 
-
-@import './layout/header.scss';
-@import './layout/footer.scss';
-
-
-@import './pages/index.scss';
+@import './pages/picturebook_01.scss';
+@import './pages/picturebook_02.scss';
+@import './pages/work.scss';
+@import './pages/teach.scss';
+@import './pages/design.scss';
+@import './pages/handmade_01.scss';
+@import './pages/handmade_02.scss';
+@import './pages/photo.scss';
 
 @import "../../node_modules/bootstrap";
